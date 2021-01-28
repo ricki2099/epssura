@@ -28,13 +28,14 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets",
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "assets/fonts/fonts.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
               
+
+
             ],
             "scripts": []
           },
