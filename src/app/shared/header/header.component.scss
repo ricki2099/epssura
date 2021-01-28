@@ -1,0 +1,19 @@
+@import '../../../assets/estilos/variables.scss';
+
+.colorprincipal{
+    background-color: $color-principal;
+    color: white;
+}
+
+.card-title {
+ position: absolute;
+ top: 42%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+//  p{
+//      font-size: 4.7rem;
+//  }
+}
+.margin-top{
+    padding-bottom: 8rem;
+}

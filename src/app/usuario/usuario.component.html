@@ -1,0 +1,37 @@
+<app-header></app-header>
+<div class="album bg-light">
+  <div class="container mb-5">
+    <div>
+      <div class="card-title text-white text-center">
+        <hr />
+        <h3 class="d-flex justify-content-center align-items-center">
+          <span class="text-secciones">{{name}}</span>
+        </h3>
+        <h4 class="d-flex justify-content-center align-items-center mb-3">
+          <span class="text-muted">Mesa Amplia Participativa.</span>
+        </h4>
+        <h5 class="d-flex justify-content-center align-items-center mb-5">
+          <span class="text-muted">Encuentra aquí lka información pertinente a todas las actividades, reoresebntantes, estatutos ejercicios y asociación para la ciduad.</span>
+        </h5>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col text-center my-2" style="width: 10rem;" *ngFor="let item of contenidos" > 
+        <div class="card rounded shadow" >
+          <div class="mb-3 mt-5">
+            <img class="rounded-circle w-50"  src="https://www.w3schools.com/bootstrap4/paris.jpg"  alt="Card image cap">
+
+          </div>
+          <div class="card-body ">
+            <h5 class="card-title  text-secciones">{{item.titulo}}</h5>
+            <p class="card-text">{{item.descripcion}}
+            </p>
+            <a href="#" class="btn rounded-pill boton">{{item.boton}}</a>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

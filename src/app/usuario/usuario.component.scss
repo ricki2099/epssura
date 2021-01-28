@@ -1,0 +1,21 @@
+
+@import '../../assets/estilos/variables.scss';
+
+.text-secciones{
+    color: $color-principal;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.boton{
+  border: 2px solid $color-principal;
+  font-size: medium;
+  width: 100%;
+  color: $color-principal;
+  font-weight: 800;
+}
+
+.boton:hover{
+  background-color: $color-principal;
+  color: white;
+}

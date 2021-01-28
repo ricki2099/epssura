@@ -1,0 +1,14 @@
+@import '../../../assets/estilos/variables.scss';
+
+.colorprincipal{
+    background-color: $color-principal;
+    color: white;
+}
+.colorinterno{
+    color: $color-principal;
+}
+.geo{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: larger;
+}

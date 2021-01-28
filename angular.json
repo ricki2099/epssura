@@ -28,10 +28,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              
             ],
             "scripts": []
           },
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "eps-sura"
+  "defaultProject": "eps-sura",
+  "cli": {
+    "analytics": false
+  }
 }
